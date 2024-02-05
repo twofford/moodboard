@@ -10,4 +10,5 @@
 #  board_id   :integer
 #
 class Pin < ApplicationRecord
+    belongs_to :board
 end
